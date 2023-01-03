@@ -1,0 +1,25 @@
+@use "../abstracts/" as *;
+
+body {
+  color: clr(primary, "blue-400");
+  font-family: $ff-default;
+  font-weight: $fw-400;
+  font-size: $fs-small;
+}
+
+h1,
+.social-stat {
+  text-align: center;
+  color: clr(primary, "blue-600");
+  font-size: $fs-regular;
+  font-weight: $fw-700;
+}
+
+.card__age {
+  font-size: $fs-regular;
+}
+
+.social-text {
+  text-align: center;
+  font-size: 0.825rem;
+}

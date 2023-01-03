@@ -1,0 +1,12 @@
+@use "../abstracts/" as *;
+
+body {
+  display: grid;
+  place-items: center;
+
+  background-color: clr(primary, "cyan");
+  background-image: url(../../images/bg-pattern-top.svg),
+    url(../../images/bg-pattern-bottom.svg);
+  background-position: bottom 15em right 15em, top 15em left 15em;
+  background-repeat: no-repeat;
+}
